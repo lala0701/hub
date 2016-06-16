@@ -1,0 +1,1573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>make for qq</title>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	li{
+		list-style: none;
+	}
+		.outer{
+			width: 1024px;
+			height: 1661px;
+			margin: auto;
+			background: url(img/BLOG_01.jpg) 0 0 repeat;
+			
+		}
+		.inner{
+			width: 963px;
+			height: 1661px;
+			margin: auto;
+			background: url(images/4_03.png) 0 0 repeat-y;
+		}
+		.head{
+			width: 947px;
+			height: 224px;
+			margin: auto;
+			background: url(images/blog_05.png) 0 0 repeat-x;
+			overflow: hidden;
+		}
+		.monkey{
+			width: 557px;
+			height: 224px;
+			background: url(img/monkey.png)0 0 no-repeat;
+			float: left;
+			margin-left: 14px;
+		}
+		.spac{
+			width: 461px;
+			height: 98px;
+			margin-left: 344px;
+			margin-top: 56px;
+			background: rgba(255,255,255,0.5);
+			float: left;
+			border-radius: 10px;
+
+		}
+		.a{
+			font-size: 35px;
+			font-weight: bold;
+			font-family: "微软雅黑";
+			color: #824555;
+			letter-spacing: 5px;
+		}
+		.b{
+			font-size: 15px;
+			font-family: "微软雅黑";
+			color: #824555;
+
+		}
+		.banyu{
+			width: 15px;
+			height: 28px;
+			float: right;
+			background: url(img/1_03.png);
+			margin-top: 7px;
+			margin-right: 6px;
+		}
+		.shouye{
+			width: 288px;
+			height: 30px;
+			float: right;
+			background: #ff9935;
+			margin-top: 7px;
+			
+		}
+		.shouye a{
+			text-decoration: none;
+			color: black;
+			font-weight: bolder;
+			float: right;
+		}
+		.shouye span{
+			float: right;
+			font-weight: bolder;
+		}
+		a,span{
+			/*word-spacing: 5px;*/
+			line-height: 30px;
+			font-size: 21px;
+		}
+		.mid{
+			width: 947px;
+			height: 1349px;
+			margin: auto;
+			background: url(images/9_03.png) 0 0 repeat-x;
+			overflow: hidden;
+		}
+		.bott{
+			width: 947px;
+			height: 88px;
+			margin: auto;
+			background: url(images/40_03.png) 0 0 repeat-x;
+			overflow: hidden;
+		}
+		.ml,.mm,.mr{
+			float: left;
+			margin-top: 8px;
+			/*border: 1px solid black;*/
+
+		}
+
+		.ml{
+			width: 227px;
+			height: 1324px;
+			margin-left: 8px;
+			/*border: 1px solid black;*/
+
+		}
+		.ml1{
+			height: 348px;
+			width: 227px;
+			
+		}
+
+		.ml2{
+			width: 227px;
+			height: 325px;
+			margin-top: 12px;
+		}
+		.ml3{
+			height: 339px;
+			width: 227px;
+			margin-top: 15px;
+		}
+		.ml4{
+			height: 264px;
+			width: 227px;
+			margin-top: 14px;
+		}
+		.ml1,.ml2,.ml3,.ml4,.mm1,.mm2,.mm3,.mm4,.mr1,.mr2,.mr3,.mr4{
+			background: #ffd2a8;
+		}
+		.mm{
+			width: 452px;
+			height: 1155px;
+			margin-left: 12px;
+			
+		}
+		.mm1{
+			width: 452px;
+			height: 288px;
+		}
+		.mm2{
+			width: 452px;
+			height: 256px;
+		}
+		.mm3{
+			width: 452px;
+			height: 285px;
+		}
+		.mm4{
+			width: 452px;
+			height: 286px;
+		}
+		.mm2,.mm3,.mm4,.mr2,.mr3,.mr4{
+			margin-top: 15px;
+		}
+		
+		.mr{
+			width: 227px;
+			height: 1279px;
+			margin-left: 12px;
+		
+
+		}
+		.mr1{
+			width: 227px;
+			height: 212px;
+		}
+		.mr2{
+			width: 227px;
+			height: 277px;
+		}
+		.mr3{
+			width: 227px;
+			height: 418px;
+
+		}
+		.mr4{
+			width: 227px;
+			height: 326px;
+
+		}
+		.ml1-top-1{
+			width: 229px;
+			height: 46px;
+			background: url(images/16_05.png) 0 0 repeat-x;
+			
+		}
+		.ml1-top-2{
+			width: 227px;
+			height: 45px;
+			background: url(images/16_03.png) left top no-repeat;
+			overflow: hidden;
+		}
+		.ml1-top-3{
+			width: 229px;
+			height: 45px;
+			background: url(images/16_07.png) right top no-repeat;
+		}
+		.ml1-top-4{
+			width: 30px;
+			height: 30px;
+			background: url(img/biaotou_03.png) 0 0 no-repeat;
+			float: left;
+			margin-top: 12px;
+			margin-left: 17px;
+		}
+		.aa{
+			width: 68px;
+			/*height: 0px;*/
+			float: left;
+			line-height: 43px;
+			color: #981A1A;
+			font-weight: bolder;
+		}
+		.ml1-mid{
+			width: 225px;
+			height: 281px;
+			margin-left: 0px;
+			margin-top:41px;
+		}
+		.pho{
+			width: 202px;
+			height: 201px;
+			margin-top: 9px;
+			margin-left: 14px;
+			background: url(images/14_03.png);
+		}
+		.bb{
+			width: 202px;
+			margin-top: 8px;
+			margin-left: 14px;
+			overflow: hidden;
+		}
+		.cc,.cc1{
+
+			border-radius: 50px;
+			float: left;
+			width: 66px;
+			height: 20px;
+		}
+		.cc1,.ee10,.an1,.ee2{
+			background: #fea64f;
+		}
+		.ml1-bot{
+			width: 227px;
+			height: 27px;
+			background: url(images/21_03.png) 0 0 repeat;
+			margin-top: 10px;
+		}
+		.ml1-bot-l{
+			width: 227px;
+			height: 27px;
+			background: url(images/20_03.png) left bottom no-repeat;
+			/*margin-top: -1px;*/
+		}
+		.ml1-bot-r{
+			width: 227px;
+			height: 27px;
+			background: url(images/20_05.png) right bottom no-repeat;
+			/*margin-top: -1px;*/
+		}
+		.ml2-top-1{
+			width: 229px;
+			height: 46px;
+			background: url(images/16_05.png) 0 0 repeat-x;
+			
+		}
+		.ml2-top-2{
+			width: 227px;
+			height: 45px;
+			background: url(images/16_03.png) left top no-repeat;
+			overflow: hidden;
+		}
+		.ml2-top-3{
+			width: 229px;
+			height: 45px;
+			background: url(images/16_07.png) right top no-repeat;
+		}
+		.ml2-top-4{
+			width: 30px;
+			height: 30px;
+			background: url(img/biaotou_03.png) 0 0 no-repeat;
+			float: left;
+			margin-top: 12px;
+			margin-left: 17px;
+		}
+		.dd{
+
+			width: 46px;
+			/*height: 0px;*/
+			float: right;
+			line-height: 40px;
+			color: #981A1A;
+			font-weight: bolder;
+			margin-right: 14px;
+		
+		}
+		.ml2-mid{
+			width: 225px;
+			height: 242px;
+			margin-left: 0px;
+			overflow: hidden;
+			/*margin-top:46px;*/
+		}
+		.list{
+			margin-left: 10px;
+		}
+		.ee,.ee10{
+			border-radius: 5px;
+			width: 53px;
+			height: 25px;
+		}
+		.music{
+			width: 200px;
+			height: 185px;
+			margin-left: 15px;
+			margin-top: 22px;
+		}
+		.hh{
+			color: #981A1A;
+			font-weight: bolder;
+			border-bottom: 1px dashed black;
+		}
+		.hh,.ii{
+			font-size:10px;
+
+		}
+		.ff{
+			font-size: 13px;
+			font-family: "宋体";
+			font-weight: bolder;
+			overflow: hidden;
+			background: url(images/ermai_03.png);
+			border-bottom: 1px dashed black;
+			margin-bottom: 5px;
+			width: 180px;
+		}
+		ul a{
+			float: right;
+			width: 14px;
+			height: 10px;
+			background: url(img/ermai_03.png);
+
+		}
+		.last{
+			width: 88px;
+			height: 25px;
+			/*background: red;*/
+			margin-top: -16px;
+			float: right;
+			color: #981A1A;
+			font-weight: bolder;
+			font-size: 15px;
+		}
+		.ml2-bot{
+			width: 227px;
+			height: 27px;
+			background: url(images/21_03.png) left bottom repeat;
+			margin-top: 10px;
+		}
+		.ml2-bot-l{
+			width: 227px;
+			height: 27px;
+			background: url(images/20_03.png) left bottom no-repeat;
+			
+		}
+		.ml2-bot-r{
+			width: 227px;
+			height: 27px;
+			background: url(images/20_05.png) right bottom no-repeat;
+			
+		}
+		.ml3-top-1{
+			width: 229px;
+			height: 46px;
+			background: url(images/16_05.png) 0 0 repeat-x;
+			
+		}
+		.ml3-top-2{
+			width: 227px;
+			height: 45px;
+			background: url(images/16_03.png) left top no-repeat;
+			overflow: hidden;
+		}
+		.ml3-top-3{
+			width: 229px;
+			height: 45px;
+			background: url(images/16_07.png) right top no-repeat;
+		}
+		.ml3-top-4{
+			width: 30px;
+			height: 30px;
+			background: url(img/biaotou_03.png) 0 0 no-repeat;
+			float: left;
+			margin-top: 12px;
+			margin-left: 17px;
+		}
+		.ee1{
+			border-radius: 5px;
+			width: 53px;
+			height: 25px;
+			/*background: url(img/jiantou_03.png);*/
+			/*background-position: 2px 3px;*/
+
+
+		} 
+
+		.ee2{
+			border-radius: 5px;
+			width: 53px;
+			height: 25px;
+		}
+		.ml3-bot{
+			width: 227px;
+			height: 27px;
+			background: url(images/21_03.png) left bottom repeat;
+			margin-top: 16px;
+		}
+		.ml3-bot-l{
+			width: 227px;
+			height: 27px;
+			background: url(images/20_03.png) left bottom no-repeat;
+			
+		}
+		.ml3-bot-r{
+			width: 227px;
+			height: 27px;
+			background: url(images/20_05.png) right bottom no-repeat;
+			
+		}
+		.ml4-top-1{
+			width: 229px;
+			height: 46px;
+			background: url(images/16_05.png) 0 0 repeat-x;
+			
+		}
+		.ml4-top-2{
+			width: 227px;
+			height: 45px;
+			background: url(images/16_03.png) left top no-repeat;
+			overflow: hidden;
+		}
+		.ml4-top-3{
+			width: 229px;
+			height: 45px;
+			background: url(images/16_07.png) right top no-repeat;
+		}
+		.ml4-top-4{
+			width: 30px;
+			height: 30px;
+			background: url(img/biaotou_03.png) 0 0 no-repeat;
+			float: left;
+			margin-top: 12px;
+			margin-left: 17px;
+		}
+		.ml4-mid{
+			width: 202px;
+			height: 182px;
+			background: #feba73;
+			margin-left: 14px;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+		}
+		.ml4-mid-i{
+			width: 189px;
+			height: 173px;
+			background: #ffd3a6;
+			margin-left: 7px;
+			margin-top: 2px;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+
+		}
+		.ml4-bot{
+			width: 227px;
+			height: 27px;
+			background: url(images/21_03.png) left bottom repeat;
+			margin-top: 16px;
+		}
+		.ml4-bot-l{
+			width: 227px;
+			height: 27px;
+			background: url(images/20_03.png) left bottom no-repeat;
+			
+		}
+		.ml4-bot-r{
+			width: 227px;
+			height: 27px;
+			background: url(images/20_05.png) right bottom no-repeat;
+			
+		}
+		.gg{
+			color: #981A1A;
+			font-weight: bolder;
+			
+		}
+		.mr1-top-1{
+			width: 229px;
+			height: 46px;
+			background: url(images/16_05.png) 0 0 repeat-x;
+			
+		}
+		.mr1-top-2{
+			width: 227px;
+			height: 45px;
+			background: url(images/16_03.png) left top no-repeat;
+			overflow: hidden;
+		}
+		.mr1-top-3{
+			width: 229px;
+			height: 45px;
+			background: url(images/16_07.png) right top no-repeat;
+		}
+		.mr1-top-4{
+			width: 30px;
+			height: 30px;
+			background: url(img/biaotou_03.png) 0 0 no-repeat;
+			float: left;
+			margin-top: 12px;
+			margin-left: 17px;
+		}
+		.one,.one88{
+			width: 225px;
+			height: 82px;
+			overflow: hidden;
+			/*border-bottom: 1px solid #ff9935;*/
+			/*background: #ff9935;*/
+
+		}
+		.one88{
+			width: 225px;
+			height: 82px;
+			overflow: hidden;
+		}
+		.ouba{
+			width: 66px;
+			height: 66px;
+			background: url(img/meinan_03.jpg);
+			float: left;
+			margin-top: 8px;
+			margin-left: 20px;
+		}
+		.big{
+			float: left;
+			margin-top: 14px;
+			margin-left: 17px;
+			font-size: 16px;
+			color: #981A1A;
+			
+			font-weight: bold;
+
+		}
+		.smal{
+			float: left;
+			margin-top: 8px;
+			margin-left: 18px;
+			font-size: 12px;
+			font-weight: bold;
+
+		}
+		.mm1-top-1{
+			width: 449px;
+			height: 46px;
+			background: url(images/16_05.png) 0 0 repeat-x;
+			
+		}
+		.mm1-top-2{
+			width: 449px;
+			height: 45px;
+			background: url(images/16_03.png) left top no-repeat;
+			overflow: hidden;
+		}
+		.mm1-top-3{
+			width: 449px;
+			height: 45px;
+			background: url(images/16_07.png) right top no-repeat;
+		}
+		.mm1-top-4{
+			width: 30px;
+			height: 30px;
+			background: url(img/biaotou_03.png) 0 0 no-repeat;
+			float: left;
+			margin-top: 12px;
+			margin-left: 17px;
+		}
+		.mm1-mid{
+			overflow: hidden;
+		}
+		.mm1-mid-l,.mm1-mid-m,.mm1-mid-r{
+			float: left;
+		}
+		.mm1-mid-l{
+			width:141px;
+			height: 191px;
+			margin-left: 10px;
+			margin-top: 8px;
+			background: #ff9935; 
+		}
+		.mm1-mid-m,.mm1-mid-r{
+			width:141px;
+			height: 191px;
+			margin-left: 6px;
+			margin-top: 8px;
+			/*background: #ff9935;*/
+		}
+		.s,.ss,.sss{
+			width:125px;
+			height: 125px;
+			margin-top: 10px;
+			margin-left: 10px;
+			background: url(img/junren_03.png); 
+		}
+		.ss{
+			background: url(img/yinyuenan_03.png);
+		}
+		.sss{
+			background: url(img/qichenan_03.png);
+		}
+		.z{
+			font-size: 10px;
+			text-align: center;
+
+		}
+		.x{
+			width: 69px;
+			height: 17px;
+			margin-left: 38px;
+			margin-top: 10px;
+			/*border-radius: 50px;*/
+
+		}
+		.an,.an1{
+			width: 71px;
+			height: 21px;
+			border-radius: 50px;
+		}
+		.mm1-bot{
+			width: 452px;
+			height: 25px;
+			background: url(images/21_03.png) left bottom repeat;
+			margin-top: 18px;
+		}
+		.mm1-bot-l{
+			width: 452px;
+			height: 25px;
+			background: url(images/20_03.png) left bottom no-repeat;
+			
+		}
+		.mm1-bot-r{
+			width: 452px;
+			height: 25px;
+			background: url(images/20_05.png) right bottom no-repeat;
+			
+		}
+		.mm4-mid-1{
+			width: 453px;
+			height: 22px;
+			background:#ffc48a;
+			margin-top: 3px; 
+		}
+		.mm4-mid-2{
+			width: 413px;
+			height: 169px;
+			margin-left:18px; 
+		}
+		/*.jj{
+			font-size: 18px;
+			border-bottom: 1px dashed black;
+			font-weight: bold;
+			margin-top: 6px;
+		}*/
+		.mm2-mid{
+			overflow: hidden;
+			width: 452px;
+			height: 191px;
+		}
+		.mm2-mid-l,.mm2-mid-r{
+			float: left;
+			width: 225px;
+			height: 184px;
+
+		}
+		.mm2-mid-l{
+			border-right: 1px solid #feb163;
+		}
+		.kk{
+			margin-left: 26px;
+			margin-top: 8px;
+			font-size: 10px;
+			font-weight: bold;
+		}
+		.ll{
+			font-size: 10px;
+		}
+		.mm2-bot{
+			width: 452px;
+			height: 25px;
+			background: url(images/21_03.png) left bottom repeat;
+			margin-top: 185px;
+		}
+		.mm2-bot-l{
+			width: 452px;
+			height: 25px;
+			background: url(images/20_03.png) left bottom no-repeat;
+			
+		}
+		.mm2-bot-r{
+			width: 452px;
+			height: 25px;
+			background: url(images/20_05.png) right bottom no-repeat;
+			 
+		}
+		.ser{
+			width:183px;
+			height: 31px;
+			margin-left: 27px;
+			overflow: hidden; 
+		}
+		.ser span{
+			float: left;
+		}
+		.ser a{
+			float: right;
+			font-size: 10px;
+			color: #b62125;
+
+
+		}
+		
+		.tit{
+			width: 452px;
+			height: 27px;
+			background: #ffc48a;
+			margin-top: 3px;
+			overflow: hidden;
+		}
+		.tit span{
+			float: left;
+		}
+		.bt{
+			margin-left: 61px;
+			font-size: 15px;
+			color: #b62125;
+			font-weight: bolder;
+		}
+		.rq{
+			margin-left: 114px;
+			font-size: 15px;
+			color: #b62125;
+			font-weight: bolder;
+		}
+		.ps{
+			margin-left: 152px;
+			font-size: 15px;
+			color: #b62125;
+			font-weight: bolder;
+		}
+		.me{
+			overflow: hidden;
+			width: 415px;
+			height: 20px;
+			border-bottom: 1px dotted black;
+
+		}
+		.me1,.me2,.me3{
+			float: left;
+			font-size: 15px;
+			
+			font-weight: bold;
+
+		}
+		.me1{
+			margin-left: 9px;
+		}
+		.me2{
+			margin-left: 24px;
+		}
+		.me3{
+			margin-left: 104px;
+		}
+		.mr-mid{
+			
+			width: 194px;
+			height: 125px;
+			
+			margin-left: 16px;
+			margin-top: 3px;
+
+		}
+		.dy{
+			overflow: hidden;
+			width: 189px;
+			height: 23px;
+			border-bottom: 1px dotted black;
+		}
+		.span1,.span2,.span3{
+			float: left;
+			font-size: 15px;
+			font-weight: bold;
+		}
+		.span1{
+			margin-top: 6px;
+			width:11px;
+			height: 11px;
+			background: url(img/huangdian_03.png) ;
+		}
+		.span2{
+			margin-left: 12px;
+			color: #b31d26;
+		}
+		.span3{
+			margin-left: 20px;
+			font-size: 15px;
+		}
+		.y1{
+			width: 193px;
+			height: 190px;
+			margin-left: 18px;
+			margin-top: 10px;
+			
+		}
+		.re,.re1{
+			font-size: 12px;
+			color: red;
+			font-weight: bold;
+
+		}
+		.bla,.bla1{
+			font-size: 12px;
+			color: black;
+			font-weight: bold;
+		}
+		.tup,.tup1{
+			width: 11px;
+			height: 11px;
+			background: url(img/huangdian_03.png);
+			display: inline-block;
+		}
+		.re,.bla{
+			text-decoration: underline;
+		}
+		.newer,.newer-1{
+			
+			line-height: 88px;
+			text-align: center;
+			font-size: 15px;
+			color: #b41f25;
+			font-weight: bolder;
+		
+			
+		}
+		.newer{
+			text-decoration: none;
+		}
+		.go{
+			width: 664px;
+			height: 52px;
+			
+			margin-left: 132px;
+			margin-top: 6px; 
+		}
+
+		
+
+		
+
+	</style>
+</head>
+<body>
+	<div class="outer">
+		<div class="inner">
+			<div class="head">
+				<div class="monkey">
+					<div class="spac">
+						<ul>
+							<li class="a">XXX的个人星空间</li>
+							<br>
+							<li class="b">个人空间介绍，总是希望着，总是泯灭着。。。。。</li>
+						</ul>
+					</div>
+				</div>
+				<div class="shouye">
+					<a href="">注册</a>
+					<span>|</span>
+					<a href="">登录</a>
+					<span>|</span>
+					<a href="">会员中心</a>
+					<span>|</span>
+					<a href="">首页</a>
+				</div>
+				<div class="banyu"></div>
+				
+				
+			</div>
+			<div class="mid">
+				<div class="ml">
+					<div class="ml1">
+						<div class="ml1-top">
+							<div class="ml1-top-1">
+								<div class="ml1-top-2">
+									<div class="ml1-top-4">
+										
+									</div>
+									<div class="aa">音乐达人</div>
+									
+									<div class="ml1-top-3"></div>
+								</div>
+								
+							</div>
+						</div>
+						
+						<div class=".ml1-mid">
+							<ul >
+								<li class="pho"></li>
+								<li class="bb">
+									<input type="button" value="个人资料" class="cc1">
+									<input type="button" value="交友资料" class="cc" style="background:#c1c1c1;">
+									<input type="button" value="加为好友" class="cc" style="background:#c1c1c1;">
+								</li>
+								<li class="bb">
+									<input type="button" value="投他一票" class="cc" style="background:#c1c1c1;">
+									<input type="button" value="给他留言" class="cc" style="background:#c1c1c1;">
+									<input type="button" value="送他卡片" class="cc" style="background:#c1c1c1;">
+								</li>
+							</ul>
+						</div>
+						<div class="ml1-bot">
+							<div class="ml1-bot-l">
+								<div class="ml1-bot-r"></div>
+							</div>
+						</div>
+						
+						
+						
+					</div>
+					<div class="ml2">
+						<div class="ml2-top">
+							<div class="ml2-top-1">
+								<div class="ml2-top-2">
+									<div class="ml2-top-4"></div>
+									<div class="aa">音乐盒</div>
+									<a href="" class="dd">more</a>
+									<div class="ml2-top-3"></div>
+								</div>
+							</div>
+						</div>
+						<div class="ml2-mid">
+							<div class="list">
+								<input type="button" value="歌单一" class="ee10">
+								<input type="button" value="歌单二" class="ee" style="background:#c1c1c1;">
+								<input type="button" value="歌单三" class="ee" style="background:#c1c1c1;">
+							</div>
+							<div class="music">
+								<ul>
+									<li class="ff">1.有没有人告诉你-陈楚生
+									<a href=""></a>	
+									</li>
+									<li class="ff">2.改变自己-王力宏
+									<a href=""></a>
+
+									</li>
+									<li class="ff">3.还不是因为爱-苏醒
+									<a href=""></a>
+									</li>
+									<li class="ff">4.西界-林俊杰
+									<a href=""></a>
+
+									</li>
+									<li class="ff">5.我们的歌-王力宏
+									<a href=""></a>
+									</li>
+									<li class="ff">6.如果你也听说-张惠妹
+									<a href=""></a>
+
+									</li>
+									<li class="ff">7.热浪-温岚
+									<a href=""></a>
+									</li>
+									<li class="ff">8.少年游-魏晨-快乐男声
+									<a href=""></a>
+									</li>
+								</ul>
+							</div>
+							<a href="" class="last">试听全部</a>
+						</div>
+						<div class="ml2-bot">
+							<div class="ml2-bot-l">
+								<div class="ml2-bot-r"></div>
+							</div>
+						</div>
+					</div>
+					<div class="ml3">
+						<div class="ml3-top">
+							<div class="ml3-top-1">
+								<div class="ml3-top-2">
+									<div class="ml3-top-4"></div>
+									<div class="aa">经纪公司</div>
+									<a href="" class="dd">more</a>
+									<div class="ml3-top-3"></div>
+								</div>
+							</div>
+						</div>
+						<div class="ml3-mid">
+							<ul>
+								<li class="pho"></li>
+								<li class="bb" style="margin-left:28px;">
+									<input type="button" class="ee1" value="&laquo" style="background:#c1c1c1;color:white;font-size:19px;">
+									<span style="color: #981A1A;
+			font-weight: bolder;font-size:20px;">阿姨</span>
+									<input type="button" class="ee2" value="&raquo" style="color:white;font-size:19px;">
+								</li>
+							</ul>
+						</div>
+						<div class="ml3-bot">
+							<div class="ml3-bot-l">
+								<div class="ml3-bot-r"></div>
+							</div>
+						</div>
+					</div>
+					<div class="ml4">
+						<div class="ml4-top">
+							<div class="ml4-top-1">
+								<div class="ml4-top-2">
+									<div class="ml4-top-4"></div>
+									<div class="aa">日历</div>
+									<a href="" class="dd">more</a>
+									<div class="ml4-top-3"></div>
+								</div>
+							</div>
+						</div>
+						<div class="ml4-mid">
+							<div class="ml4-mid-i">
+								<div style="margin:auto;margin-left:32px;width:170px;height:170px;">
+									<div style="margin-left:15px;width:94px;height:26px;">
+										<span style="font-size:15px;" class="gg">January 2007</span>
+									</div>
+								
+									
+										<table style="width:162px;height:120px;margin-left:-16px;">
+									<tr>
+										<th class="gg">M</th>
+										<th class="gg">T</th>
+										<th class="gg">W</th>
+										<th class="gg">T</th>
+										<th class="gg">F</th>
+										<th class="gg">S</th>
+										<th class="gg">S</th>
+									</tr>
+									<tr>
+										<td>1</td>
+										<td>2</td>
+										<td>3</td>
+										<td>4</td>
+										<td>5</td>
+										<td>6</td>
+										<td>7</td>
+									</tr>
+									<tr>
+										<td>8</td>
+										<td>9</td>
+										<td>10</td>
+										<td>11</td>
+										<td>12</td>
+										<td>13</td>
+										<td>14</td>
+									</tr>
+									<tr>
+										<td>15</td>
+										<td>16</td>
+										<td>17</td>
+										<td>18</td>
+										<td>19</td>
+										<td>20</td>
+										<td>21</td>
+									</tr>
+									<tr>
+										<td>22</td>
+										<td>23</td>
+										<td>24</td>
+										<td>25</td>
+										<td>26</td>
+										<td>27</td>
+										<td>28</td>
+									</tr>
+									<tr>
+										<td>29</td>
+										<td>30</td>
+										<td>31</td>
+									</tr>
+								</table>
+								<div style="width:127px;height:21px;overflow:hidden;">
+									<a href="" style="font-size:15px;float:left;color: #981A1A;
+			font-weight: bolder;">&lt;DEC</a>
+									<a href="" style="font-size:15px;float:right;color:black;">FVB></a>	
+								</div>
+								
+		  							
+								
+								</div>
+								
+							</div>
+						</div>
+						<div class="ml4-bot">
+							<div class="ml4-bot-l">
+								<div class="ml4-bot-r"></div>
+							</div>	
+						</div>
+					</div>
+				</div>
+				<div class="mm">
+					<div class="mm1">
+						<div class="mm1-top">
+							<div class="mm1-top-1">
+								<div class="mm1-top-2">
+									<div class="mm1-top-4"></div>
+									<div class="aa">视频</div>
+									<a href="" class="dd" style="text-decoration:none;">more</a>
+									<div class="mm1-top-3"></div>
+								</div>
+							</div>
+							
+							
+						</div>
+						<div class="mm1-mid">
+							<div class="mm1-mid-l">
+								<ul>
+									<li class="s"></li>
+									<li class="z">爱的初体验 223票</li>
+									<li class="x">
+										<input type="button" value="投票" class="an1">
+									</li>
+								</ul>
+							</div>
+							<div  class="mm1-mid-m">
+								<ul>
+									<li class="ss"></li>
+									<li class="z">爱的初体验 223票</li>
+									<li class="x">
+										<input type="button" value="投票" class="an" style="background:#c1c1c1;">
+									</li>
+								</ul>
+							</div>
+							<div class="mm1-mid-r">
+								<ul>
+									<li class="sss"></li>
+									<li class="z">爱的初体验 223票</li>
+									<li class="x">
+										<input type="button" value="投票" class="an" style="background:#c1c1c1;">
+									</li>
+								</ul>
+							</div>
+							
+						</div>
+						<div class="mm1-bot">
+							<div class="mm1-bot-l">
+								<div class="mm1-bot-r"></div>
+							</div>
+						</div>
+					</div>
+					<div class="mm2">
+						<div class="mm1-top">
+							<div class="mm1-top-1">
+								<div class="mm1-top-2">
+									<div class="mm1-top-4"></div>
+									<div class="aa">歌词创作</div>
+									<a href="" class="dd" style="text-decoration:none;">more</a>
+									<div class="mm1-top-3"></div>
+								</div>
+							</div>
+							
+							
+						</div>
+						<div class="mm2-mid-l">
+							<ul>
+								<li class="kk">当你在穿山越岭的那一边</li>
+								<li class="kk">我在孤独的路上没有尽头</li>
+								<li class="kk">一辈子有多少的来不及</li>
+								<li class="kk">发现已经失去</li>
+								<li class="kk">最重要的东西</li>
+								<li class="kk">恍然大悟早已远去</li>
+								<li class="kk">为何总是在爱犯错以后</li>
+								
+									
+								
+							</ul>
+							<div class="ser">
+								<span>......</span>
+								<a href="">查看全部</a>
+							</div>
+						</div>
+						<div class="mm2-mid-r">
+							<ul>
+								<li class="kk">当你在穿山越岭的那一边</li>
+								<li class="kk">我在孤独的路上没有尽头</li>
+								<li class="kk">一辈子有多少的来不及</li>
+								<li class="kk">发现已经失去</li>
+								<li class="kk">最重要的东西</li>
+								<li class="kk">恍然大悟早已远去</li>
+								<li class="kk">为何总是在爱犯错以后</li>
+								
+									
+								
+							</ul>
+							<div class="ser">
+								<span>......</span>
+								<a href="">查看全部</a>
+							</div>
+						</div>
+
+						<div class="mm2-bot">
+							<div class="mm2-bot-l">
+								<div class="mm2-bot-r"></div>
+							</div>
+						</div>
+					</div>
+					<div class="mm3">
+						<div class="mm1-top">
+							<div class="mm1-top-1">
+								<div class="mm1-top-2">
+									<div class="mm1-top-4"></div>
+									<div class="aa">相册</div>
+									<a href="" class="dd" style="text-decoration:none;">more</a>
+									<div class="mm1-top-3"></div>
+								</div>
+							</div>
+							
+							
+						</div>
+						<div class="mm1-mid">
+							<div class="mm1-mid-l">
+								<ul>
+									<li class="s"></li>
+									<li class="z">爱的初体验 223票</li>
+									<li class="x">
+										<input type="button" value="投票" class="an1">
+									</li>
+								</ul>
+							</div>
+							<div  class="mm1-mid-m">
+								<ul>
+									<li class="ss"></li>
+									<li class="z">爱的初体验 223票</li>
+									<li class="x">
+										<input type="button" value="投票" class="an" style="background: #fea64f;">
+									</li>
+								</ul>
+							</div>
+							<div class="mm1-mid-r">
+								<ul>
+									<li class="sss"></li>
+									<li class="z">爱的初体验 223票</li>
+									<li class="x">
+										<input type="button" value="投票" class="an" style="background: #fea64f;">
+									</li>
+								</ul>
+							</div>
+							
+						</div>
+						<div class="mm1-bot">
+							<div class="mm1-bot-l">
+								<div class="mm1-bot-r"></div>
+							</div>
+						</div>
+					</div>
+					<div class="mm4">
+						<div class="mm1-top">
+							<div class="mm1-top-1">
+								<div class="mm1-top-2">
+									<div class="mm1-top-4"></div>
+									<div class="aa">心情日记</div>
+									<a href="" class="dd" style="text-decoration:none;">more</a>
+									<div class="mm1-top-3"></div>
+								</div>
+							</div>
+							
+							
+						</div>
+						<div class="tit">
+							<span class="bt">标题</span>
+							<span class="rq">日期</span>
+							<span class="ps">票数</span>
+						</div>
+						  <table style=" border-collapse: collapse;margin-left:8px;margin-top:10px;
+">
+						  	
+						  	<tr class="me">
+						  		<td class="me1">我不知道什么是什么...</td>
+						  		<td class="me2">2007.09.23</td>
+						  		<td class="me3">19票</td>
+						  	</tr>
+						  	<tr class="me">
+						  		<td class="me1">我不知道什么是什么...</td>
+						  		<td class="me2">2007.09.23</td>
+						  		<td class="me3">19票</td>
+						  	</tr>
+						  	<tr class="me">
+						  		<td class="me1">我不知道什么是什么...</td>
+						  		<td class="me2">2007.09.23</td>
+						  		<td class="me3">19票</td>
+						  	</tr>
+						  	<tr class="me">
+						  		<td class="me1">我不知道什么是什么...</td>
+						  		<td class="me2">2007.09.23</td>
+						  		<td class="me3">19票</td>
+						  	</tr>
+						  	<tr class="me">
+						  		<td class="me1">我不知道什么是什么...</td>
+						  		<td class="me2">2007.09.23</td>
+						  		<td class="me3">19票</td>
+						  	</tr>
+						  	<tr class="me">
+						  		<td class="me1">我不知道什么是什么...</td>
+						  		<td class="me2">2007.09.23</td>
+						  		<td class="me3">19票</td>
+						  	</tr>
+						  	<tr class="me">
+						  		<td class="me1">我不知道什么是什么...</td>
+						  		<td class="me2">2007.09.23</td>
+						  		<td class="me3">19票</td>
+						  	</tr>
+						  	<tr class="mee">
+						  		<td class="me1">我不知道什么是什么...</td>
+						  		<td class="me2">2007.09.23</td>
+						  		<td class="me3">19票</td>
+						  	</tr>
+						  </table>
+
+						 
+						<div class="mm1-bot">
+							<div class="mm1-bot-l">
+								<div class="mm1-bot-r"></div>
+							</div>
+						</div> 
+					</div>
+				</div>
+				<div class="mr">
+					<div class="mr1">
+						<div class="mr1-top">
+							<div class="mr1-top-1">
+							
+								<div class="mr1-top-2">
+									<div class="mr1-top-4"></div>
+										
+									<div class="aa">访问记录</div>
+									
+									<div class="mr1-top-3"></div>
+								</div>
+								
+							
+							</div>
+						</div>
+						<ul class="mr-mid">
+							<li class="dy">
+								<span class="span1"></span>
+
+								<span class="span2">好友数量</span>
+								<span class="span3">961</span>
+							</li>
+							<li class="dy">
+								<span class="span1"></span>
+
+								<span class="span2">累计投票</span>
+								<span class="span3">456879</span>
+							</li>
+							<li class="dy">
+								<span class="span1"></span>
+
+								<span class="span2">本日投票</span>
+								<span class="span3">250</span>
+							</li>
+							<li class="dy">
+								<span class="span1"></span>
+
+								<span class="span2">总访问量</span>
+								<span class="span3">1245564</span>
+							</li>
+							<li class="dy">
+								<span class="span1"></span>
+
+								<span class="span2">本日访问</span>
+								<span class="span3">1245782</span>
+							</li>
+						</ul>
+							
+						<div class="ml3-bot">
+								<div class="ml3-bot-l">
+									<div class="ml3-bot-r"></div>
+								</div>
+							</div> 
+						 
+					</div>
+					<div class="mr2">
+						<div class="mr2-top">
+							<div class="ml2-top-1">
+								<div class="ml2-top-2">
+									<div class="ml2-top-4"></div>
+									<div class="aa">留言</div>
+									<a href="" class="dd" style="text-decoration:none;">more</a>
+									<div class="ml2-top-3"></div>
+								</div>
+							</div> 
+						</div>
+						<ul class="y1">
+							<li class="bla">
+								<span class="tup"></span>
+								<span class="re">二毛</span>
+								对
+								<span class="re">玩具</span>
+								说：我不知道你
+							</li>
+							<li class="bla" style="text-indent:15px;">说了什么或者什么。。。</li>
+							<li class="bla1">
+								<span class="tup1"></span>
+								<span class="re1">二毛</span>
+								对
+								<span class="re1">玩具</span>
+								说：我不知道你
+							</li>
+							<li class="bla1" style="text-indent:15px;">说了什么或者什么。。。</li>
+							<li class="bla1">
+								<span class="tup1"></span>
+								<span class="re1">二毛</span>
+								对
+								<span class="re1">玩具</span>
+								说：我不知道你
+							</li>
+							<li class="bla1" style="text-indent:15px;">说了什么或者什么。。。</li>
+							<li class="bla1">
+								<span class="tup1"></span>
+								<span class="re1">二毛</span>
+								对
+								<span class="re1">玩具</span>
+								说：我不知道你
+							</li>
+							<li class="bla1" style="text-indent:15px;">说了什么或者什么。。。</li>
+						</ul>
+						<div class="ml3-bot">
+								<div class="ml3-bot-l">
+									<div class="ml3-bot-r"></div>
+								</div>
+							</div>  
+					</div>
+					<div class="mr3">
+						<div class="mr3-top">
+							<div class="ml2-top-1">
+								<div class="ml2-top-2">
+									<div class="ml2-top-4"></div>
+									<div class="aa">好友                      </div>
+									<a href="" class="dd" style="text-decoration:none;">more</a>
+									<div class="ml2-top-3"></div>
+								</div>
+							</div>
+						</div>
+						<div class="mr3-mid">
+							<div class="one" style="background:#ff9935;">
+								<ul>
+									<li class="ouba"></li>
+									<li class="big">玩具熊的卡</li>
+									<li class="smal">这样一个人···</li>
+								</ul>
+							</div>
+							<div class="one" style="border-bottom: 1px solid #ff9935;">
+								<ul>
+									<li class="ouba"></li>
+									<li class="big">玩具熊的卡</li>
+									<li class="smal">这样一个人···</li>
+								</ul>
+							</div>
+							<div>
+								<div class="one" style="border-bottom: 1px solid #ff9935;">
+								<ul>
+									<li class="ouba"></li>
+									<li class="big">玩具熊的卡</li>
+									<li class="smal">这样一个人···</li>
+								</ul>
+							</div>
+							</div>
+							<div>
+								<div class="one88">
+								<ul>
+									<li class="ouba"></li>
+									<li class="big">玩具熊的卡</li>
+									<li class="smal">这样一个人···</li>
+								</ul>
+							</div>
+							</div>
+						</div>
+						<div class="ml3-bot">
+								<div class="ml3-bot-l">
+									<div class="ml3-bot-r"></div>
+								</div>
+							</div> 
+					</div>
+					<div class="mr4">
+						<div class="mr4-top">
+							<div class="ml2-top-1">
+								<div class="ml2-top-2">
+									<div class="ml2-top-4"></div>
+									<div class="aa">偶像</div>
+									<a href="" class="dd" style="text-decoration:none;">more</a>
+									<div class="ml2-top-3"></div>
+								</div> 
+							</div>
+						</div>
+						<div class="mr4-mid">
+							<ul>
+								<li class="pho"></li>
+								<li class="bb" style="margin-left:28px;">
+									<input type="button" class="ee1" value="&laquo" style="background:#c1c1c1;color:white;font-size:19px;">
+									<span style="color: #981A1A;
+			font-weight: bolder;font-size:20px;">阿姨</span>
+									<input type="button" class="ee2" value="&raquo" style="font-size:19px;color:white;">
+								</li>
+							</ul>
+						</div>
+						
+							<div class="ml3-bot">
+								<div class="ml3-bot-l">
+									<div class="ml3-bot-r"></div>
+								</div>
+							</div>
+						
+							
+						
+					</div>
+				</div>
+			</div>
+			<div class="bott">
+				<div class="go">
+					<a href=""class="newer">新手上路</a>
+					<span class="newer">|</span>
+					<a href="" class="newer">关于我们</a>
+					<span class="newer">|</span>
+					<a href="" class="newer">服务条例</a>
+					<span class="newer">|</span>
+					<a href="" class="newer-1">服务公告</a>
+					<span class="newer">|</span>
+					<a href="" class="newer">行销合作</a>
+					<span class="newer">|</span>
+					<a href="" class="newer">广告刊登</a>
+					<span class="newer">|</span>
+					<a href="" class="newer">隐私政策</a>
+					<span class="newer">|</span>
+					<a href="" class="newer">客服中心</a>
+				
+				</div>
+				
+				
+				
+				
+				
+				
+			</div>
+		</div>
+	</div>
+</body>
+</html>
